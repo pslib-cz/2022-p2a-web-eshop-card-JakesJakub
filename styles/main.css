@@ -1,0 +1,84 @@
+body {
+    background-color: #EBEBEB
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.box {
+    width: 9%;
+    background-color: #ffffff;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin: 2px;
+}
+
+.box__name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    min-height: 50px;
+}
+
+.box__name:hover {
+    text-decoration: underline;
+}
+
+.box__image {
+    max-width: 177px;
+    max-height: 177px;
+    margin-bottom: 1em;
+}
+
+.box__distribution {
+    font-size: 12px;
+    height: 20px;
+}
+
+.box__price {
+    font-size: 11px;
+    color: #999999;
+    margin: 0;
+}
+
+.box__priceDPH {
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+    margin: 0;
+}
+
+.box__priceDPH::after {
+    content: " s DPH";
+    font-size: 10px;
+    color: #000000;
+}
+
+.box__info {
+    font-size: 12px;
+    font-weight: 700;
+    color: #719500;
+    padding: 5px;
+    margin: 0;
+}
+
+.box__btn {
+    background-image: linear-gradient(180deg, red, black);
+    display: inline-block;
+    padding: 6px 12px;
+    position: relative;
+    color: white;
+    border-radius: 25px;
+}
+
+.box__btn:hover {
+    background-image: linear-gradient(180deg, black, black);
+}
+
+.btn {
+    color: #ffffff;
+    text-decoration: none;
+}
