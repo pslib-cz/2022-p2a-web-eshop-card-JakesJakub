@@ -28,8 +28,8 @@ body {
 }
 
 .box__image {
-    max-width: 177px;
-    max-height: 177px;
+    width: 9em;
+    height: 9em;
     margin-bottom: 1em;
 }
 
