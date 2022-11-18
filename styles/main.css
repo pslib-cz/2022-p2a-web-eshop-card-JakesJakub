@@ -9,11 +9,11 @@ body {
 }
 
 .box {
-    width: 9%;
+    width: 12em;
     background-color: #ffffff;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
-    padding: 15px;
+    padding: 0.9em;
     margin: 2px;
 }
 
