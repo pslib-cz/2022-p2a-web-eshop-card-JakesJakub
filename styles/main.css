@@ -22,6 +22,11 @@ body {
     font-size: 14px;
     height: 50px;
     overflow: hidden;
+    color: #000000;
+}
+
+.box__name:hover{
+    text-decoration: underline;
 }
 
 .box__image {
@@ -33,6 +38,7 @@ body {
 .box__distribution {
     font-size: 12px;
     min-height: 20px;
+    color: #000000;
 }
 
 .box__price {
@@ -76,5 +82,9 @@ body {
 
 .btn {
     color: #ffffff;
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
